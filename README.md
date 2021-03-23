@@ -1,5 +1,6 @@
 ### Bem vindo ao meu git 👋('-') 
 
+email pra contato: matheus.felipe55391@gmail.com
 <!--
 **matheus55391/matheus55391** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
