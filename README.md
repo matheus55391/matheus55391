@@ -5,8 +5,8 @@
 
 </div>
 
-- 🤠 Cursando Análise e Desenvolvimento de Sistemas da Uninassau. 
-
+- 🤠 Cursando Análise e Desenvolvimento de Sistemas.
+- 
 - 🐱‍👤 Atualmente trabalho com desenvolvendo em C#, Asp.Net, Js.
 
 - 🍇 Estudando sobre Node.js
