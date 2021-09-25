@@ -62,7 +62,7 @@
 <br>
     
     
-![Snake animation](https://github.com/matheus55391/matheus55391/blob/output/github-contribution-grid-snake.svg)
+  ![Snake animation](https://github.com/matheus55391/matheus55391/blob/output/github-contribution-grid-snake.svg)
 
 <br>
 
