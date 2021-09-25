@@ -7,7 +7,7 @@
 
 - 🤠 Estou me formando em Analise e desenvolvimento de sistemas da Uninassau 
 
-- 🐱‍👤 Atualmente trabalhando como estagiraio e desenvolvendo em C#
+- 🐱‍👤 Atualmente trabalho com desenvolvendo em C#, Asp.Net, Js.
 
 - 🍇 Estudando sobre Node.js
 
@@ -38,6 +38,17 @@
 </div>
 <br>
 
+
+
+
+<div >
+  <a href="https://github.com/matheus55391">
+  <img height="190" src="https://github-readme-stats.vercel.app/api?username=matheus55391&show_icons=true&theme=dracula&count_private=true"/>
+  <img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheus55391&hide=TeX&langs_count=10&theme=dracula&layout=compact&langs_count=7)](https://github.com/anuraghazra/github-readme-stats"/>
+</div>
+
+
+
 <p>
 
   <a href="matheus.felipe55391@gmail.com" alt="Gmail">
@@ -50,17 +61,6 @@
   <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/></a>
 
 </p>
-
-
-<div >
-  <a href="https://github.com/matheus55391">
-  <img height="190" src="https://github-readme-stats.vercel.app/api?username=matheus55391&show_icons=true&theme=dracula&count_private=true"/>
-  <img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheus55391&hide=TeX&langs_count=10&theme=dracula&layout=compact&langs_count=7)](https://github.com/anuraghazra/github-readme-stats"/>
-</div>
-
-
-
-
 
 
 
