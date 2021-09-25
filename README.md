@@ -1,4 +1,4 @@
-#  Bem vindo ao meu git 👋('-') 
+# 🐱‍🏍 Bem vindo ao meu git 👋('-') 
 
 <div>
 <img src="https://c.tenor.com/itjFesV8_RUAAAAi/soulja-boy-pepe.gif" min-width="400px" max-width="140px" width="140px" align="right" alt="Computador iuriCode">
@@ -19,7 +19,7 @@
 <div align="center">
 
 
-    🐱‍🏍FOGUETE NÃO TEM RÊ🐱‍🏍
+    🚀FOGUETE NÃO TEM RÊ🚀
     <programador> Matheus Felipe Vieira Santiago </programador>
 
 <br>
@@ -83,7 +83,7 @@ Featured Projects: Fandi
 <div>
 
 
-    ⁠"Sou só um vírus, querendo escapar, dos programadores da vida."
+    🐱‍🏍⁠"Sou só um vírus, querendo escapar, dos programadores da vida."🐱‍🏍
     -Wesley D'Amico
 
 </div>
