@@ -22,7 +22,20 @@
     🐱‍🏍FOGUETE NÃO TEM RÊ🐱‍🏍
     <programador> Matheus Felipe Vieira Santiago </programador>
 
+<br>
+<p>
 
+  <a href="matheus.felipe55391@gmail.com" alt="Gmail">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+
+  <a href="https://www.linkedin.com/in/matheus-felipe-vieira-santiago-5a321a208/" alt="Linkedin">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+
+  <a href="https://www.youtube.com/channel/UCLz2c241hvFzWu53Xx35Ojg" alt="Youtube">
+  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/></a>
+
+</p>
+<br>
 <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="center" alt="Computador iuriCode">
 <div style="display: inline_block"><br>
     <img align="center" alt="Megu-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
@@ -49,19 +62,6 @@
 
 
 
-<p>
-
-  <a href="matheus.felipe55391@gmail.com" alt="Gmail">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-
-  <a href="https://www.linkedin.com/in/matheus-felipe-vieira-santiago-5a321a208/" alt="Linkedin">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-
-  <a href="https://www.youtube.com/channel/UCLz2c241hvFzWu53Xx35Ojg" alt="Youtube">
-  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/></a>
-
-</p>
-
 
 
 <br>
@@ -72,7 +72,7 @@
 
 [<img align="left" height="94px" width="94px" alt="Warpnet" src="https://media-exp1.licdn.com/dms/image/C4D0BAQGsv2NqVL3GXA/company-logo_200_200/0/1618341160463?e=2159024400&v=beta&t=cyqb6rhIN1Z_ALc5zQkEqiVum3gh5oOUK8eO1NLdhcg"/>](http://www.avonale.com/)
 
-**Estagiario** \
+
 [**Avonale**](http://www.avonale.com/)  \
 Languages & Technologies: `C#`, `ASP.NET`, `JS`, `SQL_SERVER`.\
 Featured Projects: Fandi
