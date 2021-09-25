@@ -1,7 +1,7 @@
 #  Bem vindo ao meu git 👋('-') 
 
 <div>
-<img src="https://c.tenor.com/itjFesV8_RUAAAAi/soulja-boy-pepe.gif" min-width="400px" max-width="120px" width="120px" align="right" alt="Computador iuriCode">
+<img src="https://c.tenor.com/itjFesV8_RUAAAAi/soulja-boy-pepe.gif" min-width="400px" max-width="140px" width="140px" align="right" alt="Computador iuriCode">
 
 </div>
 
