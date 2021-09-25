@@ -19,7 +19,7 @@
 <div align="center">
 
 
-    🚀FOGUETE NÃO TEM RÊ🚀
+    🚀FOGUETE NÃO TEM RÉ🚀
     <programador> Matheus Felipe Vieira Santiago </programador>
 
 <br>
