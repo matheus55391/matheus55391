@@ -5,7 +5,7 @@
 
 </div>
 
-- 🤠 Estou me formando em Analise e desenvolvimento de sistemas da Uninassau 
+- 🤠 Cursando Análise e Desenvolvimento de Sistemas da Uninassau. 
 
 - 🐱‍👤 Atualmente trabalho com desenvolvendo em C#, Asp.Net, Js.
 
@@ -50,10 +50,7 @@
     <img align="center" alt="Megu-Node" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg">
 </div>
 <br>
-
-
-
-
+    
 <div >
   <img height="180" src="https://github-readme-stats.vercel.app/api?username=matheus55391&show_icons=true&theme=dracula&count_private=true"/>
   <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheus55391&hide=TeX&langs_count=10&theme=dracula&layout=compact&langs_count=7)](https://github.com/anuraghazra/github-readme-stats"/>
