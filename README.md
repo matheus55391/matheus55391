@@ -55,8 +55,8 @@
 
 
 <div >
-  <img height="190" src="https://github-readme-stats.vercel.app/api?username=matheus55391&show_icons=true&theme=dracula&count_private=true"/>
-  <img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheus55391&hide=TeX&langs_count=10&theme=dracula&layout=compact&langs_count=7)](https://github.com/anuraghazra/github-readme-stats"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=matheus55391&show_icons=true&theme=dracula&count_private=true"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheus55391&hide=TeX&langs_count=10&theme=dracula&layout=compact&langs_count=7)](https://github.com/anuraghazra/github-readme-stats"/>
 </div>
 <br>
     
