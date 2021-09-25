@@ -40,17 +40,14 @@
 
 <p>
 
-
   <a href="matheus.felipe55391@gmail.com" alt="Gmail">
   <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
-
   <a href="https://www.linkedin.com/in/matheus-felipe-vieira-santiago-5a321a208/" alt="Linkedin">
-  <img src="	https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
   <a href="https://www.youtube.com/channel/UCLz2c241hvFzWu53Xx35Ojg" alt="Youtube">
   <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/></a>
-
 
 </p>
 
@@ -91,20 +88,3 @@ Featured Projects: Fandi
 
 </div>
 </div>
-
-
-
-<!--
-**matheus55391/matheus55391** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 Hoje trabalho com ASP.NET
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
