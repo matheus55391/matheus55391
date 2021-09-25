@@ -11,7 +11,7 @@
 
 - 🍇 Estudando sobre Node.js
 
-- 👽 おでん、暑いほどいい！
+- 👽 おでんは暑いほど良い
 
 #
 
