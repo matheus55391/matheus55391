@@ -60,9 +60,9 @@
   <img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheus55391&hide=TeX&langs_count=10&theme=dracula&layout=compact&langs_count=7)](https://github.com/anuraghazra/github-readme-stats"/>
 </div>
 <br>
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" align="center" alt="Computador iuriCode">
-
-
+    
+    
+![Snake animation](https://github.com/matheus55391/matheus55391/blob/output/github-contribution-grid-snake.svg)
 
 <br>
 
