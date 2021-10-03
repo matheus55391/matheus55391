@@ -62,11 +62,4 @@
 
 #
 
-<div>
-
-
-    🐱‍🏍⁠"Sou só um vírus, querendo escapar, dos programadores da vida."🐱‍🏍
-    -Wesley D'Amico
-
-</div>
 </div>
