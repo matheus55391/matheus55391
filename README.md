@@ -9,8 +9,6 @@
   
 - 🐱‍👤 Atualmente trabalho com desenvolvimento em C#, Asp.Net, Js.
 
-- 🍇 Estudando sobre Node.js
-
 - 👽 おでんは暑いほど良い
 
 #
