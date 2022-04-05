@@ -7,7 +7,7 @@
 
 - 🤠 Cursando Análise e Desenvolvimento de Sistemas.
   
-- 🐱‍👤 Atualmente trabalho com desenvolvimento em C# .Net.
+- 🐱‍👤 Atualmente trabalho com desenvolvimento .Net Framework e SQL.
 
 - 👽 おでんは暑いほど良い
 
