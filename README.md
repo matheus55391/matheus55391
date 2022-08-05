@@ -7,7 +7,7 @@
 
 - 🤠 Formado em Análise e Desenvolvimento de Sistemas.
   
-- 🐱‍👤 Atualmente trabalho com desenvolvimento .Net Framework e SQL.
+- 🤖 Atualmente atuando como desenvolvedor FullStack de microsserviços na web.
 
 - 👽 おでんは暑いほど良い
 
