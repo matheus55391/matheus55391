@@ -5,7 +5,7 @@
 
 </div>
 
-- 🤠 Cursando Análise e Desenvolvimento de Sistemas.
+- 🤠 Formado em Análise e Desenvolvimento de Sistemas.
   
 - 🐱‍👤 Atualmente trabalho com desenvolvimento .Net Framework e SQL.
 
