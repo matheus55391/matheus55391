@@ -3,7 +3,7 @@
   <h1>
     Oi, me chamo Matheus Felipe!!!
     <br/>
-    Seja bem vindo ao meu perfil 🚀
+    Bem vindo ao meu git 🚀
   </h1>
 </div>
 
