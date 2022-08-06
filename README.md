@@ -1,24 +1,33 @@
-# Bem vindo ao meu git 👋('-') 
 
-<div>
-<img src="https://c.tenor.com/itjFesV8_RUAAAAi/soulja-boy-pepe.gif" min-width="400px" max-width="140px" width="140px" align="right" alt="Computador iuriCode">
-
+<div  align="center">
+  <h1>
+    Oi, me chamo Matheus Felipe!!!
+    <br/>
+    Seja bem vindo ao meu perfil 🚀
+  </h1>
 </div>
 
-- 🤠 Formado em Análise e Desenvolvimento de Sistemas.
-  
-- 🤖 Atualmente atuando como desenvolvedor FullStack de microsserviços na web.
+<p align='center'>
+  Desenvolvedor FullStack
+</p>
 
-- 👽 おでんは暑いほど良い
+<br/>
 
-#
 
+
+### ✨ Sobre :
+
+- 🤠 Formado em Análise e Desenvolvimento de Sistemas na Uninassau.
+- 🤖 Atualmente estou trabalhando como desenvolvedor FullStack de microsserviços.
+- 👽 Atualmente venho estudando as frameworks: Nextjs e Nestjso
 
 <div align="center">
 
-    <programador> Matheus Felipe Vieira Santiago </programador>
-
+    
 <br>
+
+### 📫
+
 <p>
 
   <a href ="mailto:matheus.felipe55391@gmail.com">
@@ -42,7 +51,9 @@
 <img align="center" alt="Megu-Fire" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg">
 <img align="center" alt="Megu-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
 <img align="center" alt="Megu-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-<img align="center" alt="Megu-Jest" height="30" width="40" src="https://symbols.getvecta.com/stencil_85/20_jest-icon.aff64ab210.svg" />
+<img align="center" alt="Megu-Next" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg">
+<img align="center" alt="Megu-Nest" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg">
+
 </div>
 <br>
     
