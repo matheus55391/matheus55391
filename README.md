@@ -7,9 +7,9 @@
   </h1>
 </div>
 
-<p align='center'>
+<!-- <p align='center'>
   Desenvolvedor FullStack
-</p>
+</p> -->
 
 <br/>
 
