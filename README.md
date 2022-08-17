@@ -18,8 +18,8 @@
 ### ✨ Sobre :
 
 - 🤠 Formado em Análise e Desenvolvimento de Sistemas na Uninassau.
-- 🤖 Atualmente estou trabalhando como desenvolvedor FullStack de microsserviços.
-- 👽 Atualmente venho estudando as frameworks: Nextjs e Nestjso
+- 🤖 Atualmente estou trabalhando como desenvolvedor FullStack.
+- 👽 Atualmente venho estudando as frameworks: Nextjs e Nestjs
 
 <div align="center">
 
