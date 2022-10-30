@@ -2,14 +2,14 @@ import Image from 'next/image'
 import { useRouter } from 'next/router'
 
 export const CardPerfil = () =>{
-	const myLoader = () => 'https://media-exp1.licdn.com/dms/image/C4D03AQHBILP1Jr140Q/profile-displayphoto-shrink_800_800/0/1653305528945?e=1666224000&v=beta&t=J1MxIz2A8KQmK_1Arh4oYU6f9k-pqmD17K6_qQXJiTQ'
+	const myLoader = () => 'https://media-exp1.licdn.com/dms/image/C4D03AQHBILP1Jr140Q/profile-displayphoto-shrink_800_800/0/1653305528945?e=1672876800&v=beta&t=drgQl_7e-YZzCaTO8my9g_7k9grx2bKReqmPvWZZqX8'
 	const router = useRouter()
 	return(
 		<div className="pt-16 flex flex-col  items-center justify-center">
 			<div className="flex h-52 w-52 relative   ">
 				<Image
 					loader={myLoader}
-					src="me.png"
+					src="i.png"
 					alt="Picture of the author"
 					layout="fill" // required
 					className="rounded-full "
