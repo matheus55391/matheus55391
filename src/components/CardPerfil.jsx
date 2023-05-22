@@ -9,7 +9,7 @@ export const CardPerfil = () =>{
 			<div className="flex h-52 w-52 relative   ">
 				<Image
 					loader={myLoader}
-					src="i.png"
+					src="/matheus.jpg"
 					alt="Picture of the author"
 					layout="fill" // required
 					className="rounded-full "
