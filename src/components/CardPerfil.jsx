@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { useRouter } from 'next/router'
 
 export const CardPerfil = () =>{
-	const myLoader = () => 'https://media-exp1.licdn.com/dms/image/C4D03AQHBILP1Jr140Q/profile-displayphoto-shrink_800_800/0/1653305528945?e=1672876800&v=beta&t=drgQl_7e-YZzCaTO8my9g_7k9grx2bKReqmPvWZZqX8'
+	const myLoader = () => 'https://media.licdn.com/dms/image/C4D03AQHBILP1Jr140Q/profile-displayphoto-shrink_800_800/0/1653305528945?e=1690416000&v=beta&t=DpogbS6hcC5sTFinl6Ynb3autT2DUXvrrHlPShe1hvs'
 	const router = useRouter()
 	return(
 		<div className="pt-16 flex flex-col  items-center justify-center">
