@@ -28,7 +28,6 @@ const Home: React.FC = () => {
         <p className="pl-1 uppercase lg:text-right text-[10px] lg:text-[16px]">3 anos de experiência como desenvolvedor full stack.</p>
 
       </div>
-      <p className="pl-1 uppercase lg:text-right text-[10px] lg:text-[16px]">Contatos.</p>
       <div className="flex lg:hidden space-x-2 lg:space-x-4 pt-12 ">
             <a href="https://github.com/matheus55391" target="_blank" rel="noopener noreferrer" className="text-[26px] ">
               <FaGithub />
