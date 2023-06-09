@@ -5,9 +5,9 @@ const Home: React.FC = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white lg:px-6">
       <div className="lg:p-2">
-        <p className="pl-1 lg:pl-2 text-sm md:text-2xl lg:text-3xl mb-4 .text-gray-bold-uppercase text-left">{"<"}Olá, eu sou Matheus{"/>"}</p>
+        <p className="pl-1 lg:pl-2 text-sm md:text-2xl lg:text-3xl mb-4 text-gray-bold-uppercase text-left">{"<"}Olá, eu sou Matheus{"/>"}</p>
         <div className="flex flex-row lg:items-center pb-1">
-          <p className="pl-[1px] text-5xl md:text-7xl lg:text-9xl .text-gray-bold-uppercase lg:text-center" style={{ lineHeight: "0.8" }}>
+          <p className="pl-[1px] text-5xl md:text-7xl lg:text-9xl text-gray-bold-uppercase lg:text-center" style={{ lineHeight: "0.8" }}>
             FULLSTACK
           </p>
           <div className="hidden lg:visible lg:flex space-x-2 lg:space-x-4 mt-4 md:mt-0">
@@ -22,7 +22,7 @@ const Home: React.FC = () => {
             </a>
           </div>
         </div>
-        <p className="text-6xl md:text-10xl lg:text-11xl .text-gray-bold-uppercase text-left mb-2" style={{ lineHeight: "0.8" }}>
+        <p className="text-6xl md:text-10xl lg:text-11xl text-gray-bold-uppercase text-left mb-2" style={{ lineHeight: "0.8" }}>
           DEVELOPER
         </p>
         <p className="pl-1 uppercase lg:text-right text-[10px] lg:text-[16px]">3 anos de experiência como desenvolvedor full stack.</p>
