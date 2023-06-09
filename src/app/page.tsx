@@ -6,7 +6,7 @@ const Home: React.FC = () => {
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white lg:px-6">
       <div className="lg:p-2">
         <p className="pl-1 lg:pl-2 text-sm md:text-2xl lg:text-3xl font-bold mb-4 text-gray-300 uppercase text-left">{"<"}Olá, eu sou Matheus{"/>"}</p>
-        <div className="flex flex-row lg:items-center">
+        <div className="flex flex-row lg:items-center pb-1">
           <p className="pl-[1px] text-5xl md:text-7xl lg:text-9xl font-bold text-gray-300 uppercase lg:text-center" style={{ lineHeight: "0.8" }}>
             FULLSTACK
           </p>
