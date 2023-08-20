@@ -60,7 +60,7 @@ const Home: React.FC = () => {
     <>
       {currentSectionIndex !== 0 && (
         <button
-          className="fixed top-8 right-8 bg-orange-500 text-white px-2 py-2 rounded-lg animate-bounce hover:bg-orange-700 transition "
+          className="fixed top-8 right-8 bg-orange-500 text-white px-2 py-2 rounded-lg animate-bounce hover:bg-orange-700 transition shadow-lg"
           onClick={() => {
             handleClickScroll(currentSectionIndex - 1);
           }}
@@ -70,13 +70,13 @@ const Home: React.FC = () => {
       )}
       {currentSectionIndex !== sectionIds.length - 1 && (
         <button
-          className="fixed bottom-8 right-8 bg-orange-500 text-white px-2 py-2 rounded-lg animate-bounce hover:bg-orange-700 transition"
+          className="fixed bottom-8 right-8 bg-orange-500 text-white px-2 py-2 rounded-lg animate-bounce hover:bg-orange-700 transition "
           onClick={scrollToNextSection}
         >
           <BiDownArrow />
         </button>
       )}
-      <div id="section-1" className="flex flex-col items-center justify-center h-screen  text-white lg:px-6">
+      <div id="section-1" className="flex flex-col items-center justify-center h-screen text-white lg:px-6">
         <div className="lg:p-2">
           <p className="pl-1 lg:pl-2 text-sm md:text-2xl lg:text-3xl mb-4  font-bold text-orange-500 uppercase text-left">{"<"}Hello, my name is Matheus{"/>"}</p>
           <div className="flex flex-row lg:items-center pb-1">
@@ -118,23 +118,28 @@ const Home: React.FC = () => {
         </div>
       </div>
 
-      <div id="section-2" className="flex flex-col items-center lg:flex-row p-6 lg:p-0 lg:py-16 pb-20 bg-black h-screen text-white pt-16 lg:px-6 lg:space-x-20 space-y-10 justify-center">
-        <div className="pt-4" >
-          <div className="overflow-hidden bg-orange-500 w-96 h-96 lg:w-72 lg:h-72  rounded-full">
-            <Image
-              src="/matheus.jpeg"
-              width={600}
-              height={600}
-              alt="Picture of the author"
-            />
+      <div id="section-2" className="flex flex-col lg:flex-row max-h-screen h-screen min-h-screen bg-slate-800 ">
+
+
+        <div className="min-h-1/3 py-4 lg:w-2/3 flex   bg-orange-600 lg:bg-black justify-center items-center  space-y-6 ">
+          <div className="flex items-center justify-center overflow-hidden bg-black w-72 h-72  lg:w-80 lg:h-80  rounded-full hover:animate-spin">
+            <div className=" overflow-hidden bg-orange-500 w-64 h-64 lg:w-72 lg:h-72  rounded-full ">
+              <Image
+                src="/matheus.jpeg"
+                width={600}
+                height={600}
+                alt="Picture of the author"
+              />
+            </div>
           </div>
         </div>
-        <div className="flex flex-col text-white text-center lg:text-left  ">
-          <h1 className="text-xl lg:text-4xl font-bold">Matheus Felipe Vieira Santiago</h1>
+
+        <div className="h-full py-4 lg:w-2/3 flex flex-col p-10 lg:p-20 bg-black text-white lg:justify-center  space-y-6 ">
+          <h1 className="text-xl lg:text-3xl font-bold text-left text-orange-400">Matheus Felipe Vieira Santiago</h1>
           <span className="mt-10 lg:mt-5 text-justify text-sm lg:text-base ">
             As a fervent technology enthusiast with an insatiable drive for continuous development, I bring with me a strong background in Analysis and Systems Development.
           </span>
-          <span className="mt-1 text-justify text-sm lg:text-base ">
+          <span className="mt-1 text-justify text-sm lg:text-base text-orange-400">
 
             In my current journey, I assume the role of a full-stack developer, immersed in crafting applications for both web and mobile platforms. The guiding tools that steer my endeavors encompass Next.js, Nest.js, React Native, Python, and .NET Core.
           </span>
