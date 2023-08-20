@@ -1,12 +1,13 @@
 'use client'
-import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { BiUpArrow, BiDownArrow } from "react-icons/bi";
+import AboutSection from "@/components/AboutSection";
+import ProjectsSection from "@/components/ProjectsSection";
 
+const sectionIds = ["section-1", "section-2", "section-3"];
 
 const Home: React.FC = () => {
-  const sectionIds = ["section-1", "section-2", "section-3"]; // IDs of your sections
   const [currentSectionIndex, setCurrentSectionIndex] = useState(0);
 
   const handleClickScroll = (sectionId: number) => {
@@ -54,7 +55,7 @@ const Home: React.FC = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [currentSectionIndex, sectionIds]);
+  }, [currentSectionIndex]);
 
   return (
     <>
@@ -118,42 +119,13 @@ const Home: React.FC = () => {
         </div>
       </div>
 
-      <div id="section-2" className="flex flex-col lg:flex-row max-h-screen h-screen min-h-screen bg-slate-800 ">
+      <AboutSection
+        sectionId="section-2"
+      />
 
-
-        <div className="min-h-1/3 py-4 lg:w-2/3 flex   bg-orange-600 lg:bg-black justify-center items-center  space-y-6 ">
-          <div className="flex items-center justify-center overflow-hidden bg-black w-72 h-72  lg:w-80 lg:h-80  rounded-full hover:animate-spin">
-            <div className=" overflow-hidden bg-orange-500 w-64 h-64 lg:w-72 lg:h-72  rounded-full ">
-              <Image
-                src="/matheus.jpeg"
-                width={600}
-                height={600}
-                alt="Picture of the author"
-              />
-            </div>
-          </div>
-        </div>
-
-        <div className="h-full py-4 lg:w-2/3 flex flex-col p-10 lg:p-20 bg-black text-white lg:justify-center  space-y-6 ">
-          <h1 className="text-xl lg:text-3xl font-bold text-left text-orange-400">Matheus Felipe Vieira Santiago</h1>
-          <span className="mt-10 lg:mt-5 text-justify text-sm lg:text-base ">
-            As a fervent technology enthusiast with an insatiable drive for continuous development, I bring with me a strong background in Analysis and Systems Development.
-          </span>
-          <span className="mt-1 text-justify text-sm lg:text-base text-orange-400">
-
-            In my current journey, I assume the role of a full-stack developer, immersed in crafting applications for both web and mobile platforms. The guiding tools that steer my endeavors encompass Next.js, Nest.js, React Native, Python, and .NET Core.
-          </span>
-
-          <span className="mt-1 text-justify text-sm lg:text-base ">
-
-            My experience is deeply rooted in the agile Scrum methodology, enabling me to ensure efficiency and excellence across all my projects. My scope of work spans from crafting dynamic interfaces to constructing robust APIs, covering the realms of both REST and GraphQL, in addition to proficient database management.
-          </span>
-        </div>
-      </div>
-      <div id="section-3" className="flex flex-col items-center min-h-screen bg-white lg:px-6 pt-8">
-        <h1 className="font-bold text-3xl">{'<'}PROJECTS{'/>'}</h1>
-        <span>Under construction</span> {/* Texto em inglês */}
-      </div>
+      <ProjectsSection
+        sectionId="section-3"
+      />
     </>
   );
 };
