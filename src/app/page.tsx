@@ -119,7 +119,7 @@ const Home: React.FC = () => {
       </div>
 
       <div id="section-2" className="flex flex-col items-center lg:flex-row p-6 lg:p-0 lg:py-16 pb-20 bg-black h-screen text-white pt-16 lg:px-6 lg:space-x-20 space-y-10 justify-center">
-        <div >
+        <div className="pt-4" >
           <div className="overflow-hidden bg-orange-500 w-96 h-96 lg:w-72 lg:h-72  rounded-full">
             <Image
               src="/matheus.jpeg"
