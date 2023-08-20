@@ -28,11 +28,7 @@ body {
 
 
 @layer components {
-  .icon-blue-pulse {
-    @apply hover:animate-pulse hover:text-blue-400;
-  }
-
-  .text-gray-bold-uppercase{
-    @apply font-bold text-gray-300 uppercase;
+  .icon-pulse {
+    @apply text-orange-500 hover:animate-pulse hover:text-black;
   }
 }
