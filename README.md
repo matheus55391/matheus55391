@@ -19,7 +19,7 @@
 
 - 🤠 Formado em Análise e Desenvolvimento de Sistemas na Uninassau.
 - 🤖 Atualmente estou trabalhando como desenvolvedor FullStack.
-- 👽 Atualmente venho estudando as frameworks: React Native, Next.js, Nest.js
+- 👽 Atualmente venho estudando TDD e Desenvolvimento Mobile.
 
 <div align="center">
 
