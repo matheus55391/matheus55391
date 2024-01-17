@@ -8,9 +8,6 @@ const Navbar = () => {
           Matheus Felipe
         </Link>
       </div>
-      <Navbar>
-
-      </Navbar>
       <div>
         <a href="" className="hover:text-zinc-500 transition-all p-2 px-4 rounded-xl font-bold">Home</a>
 
