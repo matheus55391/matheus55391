@@ -1,25 +1,25 @@
 
 <div  align="center">
   <h1>
-    Oi, me chamo Matheus Felipe!!!
+    Hi, I'm Matheus Felipe!!!
     <br/>
-    Bem vindo ao meu Git 🚀
+    Welcome to my Git 🚀
   </h1>
 </div>
 
-<!-- <p align='center'>
-  Desenvolvedor FullStack
-</p> -->
+<p align='center'>
+  Full Stack Developer
+</p>
 
 <br/>
 
 
 
-### ✨ Sobre :
+### ✨ About  :
 
-- 🤠 Formado em Análise e Desenvolvimento de Sistemas na Uninassau.
-- 🤖 Atualmente estou trabalhando como desenvolvedor FullStack.
-- 👽 Atualmente venho estudando TDD e Desenvolvimento Mobile.
+- 🤠 Graduated in Systems Analysis and Development at Uninassau.
+- 🤖 Currently working as a Full Stack developer.
+- 👽 Currently studying TDD and Mobile Development.
 
 <div align="center">
 
@@ -40,31 +40,5 @@
   <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/></a>
 
 </p>
-<img src="https://raw.githubusercontent.com/HolyZheng/holyZheng-blog/master/images/coding.gif" min-width="400px" max-width="400px" width="400px" align="center" alt="Computador iuriCode">
-<div style="display: inline_block"><br>    
-<img align="center" alt="Megu-Ts" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
-<img align="center" alt="Megu-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-<img align="center" alt="Megu-React" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-<img align="center" alt="Megu-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-<img align="center" alt="Megu-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
-<img align="center" alt="Megu-Unity" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg">
-<img align="center" alt="Megu-Fire" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg">
-<img align="center" alt="Megu-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-<img align="center" alt="Megu-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-<img align="center" alt="Megu-Next" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg">
-<img align="center" alt="Megu-Nest" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg">
-
-</div>
-<br>
-    
-
-<br>
-    
-    
-  ![Snake animation](https://github.com/matheus55391/matheus55391/blob/output/github-contribution-grid-snake.svg)
-
-
-
-#
-
+<img src="https://raw.githubusercontent.com/HolyZheng/holyZheng-blog/master/images/coding.gif" min-width="400px" max-width="400px" width="400px" align="center" alt="Computer iuriCode">
 </div>
