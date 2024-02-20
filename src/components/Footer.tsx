@@ -3,9 +3,9 @@ import { FaGithub, FaLinkedin, FaYoutube } from 'react-icons/fa';
 const Footer = () => {
     return (
         <>
-            <div className='bg-gray-500 h-[1px] opacity-25 mx-6 lg:mx-12 mt-6' />
+            <div className='bg-gray-500 h-[1px] opacity-25 mx-6  lg:mx-12 mt-6' />
             <div
-                className="flex flex-col lg:flex-row items-center  mt-6 w-screen justify-between lg:px-20"
+                className="flex flex-col lg:flex-row items-center  mt-6 w-screen justify-between lg:px-20 mb-4"
             >
                 <p className="text-sm text-gray-500 text-center items-center">
                     © {new Date().getFullYear()} Matheus55391 Portfolio
