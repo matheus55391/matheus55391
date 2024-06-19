@@ -12,7 +12,7 @@ const HeroSection = () => {
           className="rounded-full"
         />
       </div>
-      <div className="text-left   p-4 mt-20 md:mt-0 m-5 md:m-0">
+      <div className="text-left   p-2 mt-20 md:mt-0 md:m-0">
         <h1 className="text-5xl font-bold text-[#42446E]">Hi 👋,</h1>
         <h1 className="text-5xl font-bold text-[#42446E]">My name is</h1>
         <h1 className="text-5xl font-bold text-[#42446E]">Matheus Felipe</h1>
