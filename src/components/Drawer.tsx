@@ -87,7 +87,7 @@ const Drawer = ({ isOpen, toggleDrawer }: DrawerProps) => {
             href="mailto:matheus.felipe55391@gmail.com"
             className="flex items-center justify-between"
           >
-            <div className="font-semibold text-gray-500 hover:text-gray-600 transition-all">
+            <div className="font-semibold text-gray-500 hover:text-gray-600 transition-all sm:hidden">
               matheus.felipe55391@gmail.com
             </div>
           </a>
