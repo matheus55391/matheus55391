@@ -1,16 +1,19 @@
-import Footer from '@/components/Footer'
-import Navbar from '@/components/Navbar'
-import ProfileCard from '@/components/ProfileCard'
+import Header from '../components/Header';
+import Hero from '../components/Hero';
+import TechStack from '../components/TechStack';
+import Footer from '../components/Footer';
 
-
-export default function Home() {
+const Home = () => {
   return (
-    <div className='flex flex-col h-screen'>
-      <Navbar />
-
-      <ProfileCard />
-
+    <>
+      <Header />
+      <main>
+        <Hero />
+        <TechStack />
+      </main>
       <Footer />
-    </div>
-  )
-}
+    </>
+  );
+};
+
+export default Home;
