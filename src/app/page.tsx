@@ -1,8 +1,7 @@
 import Header from '../components/Header';
-import Hero from '../components/HeroSection';
-import TechStack from '../components/TechStack';
 import Footer from '../components/Footer';
 import HeroSection from '../components/HeroSection';
+import TechStackSection from '../components/TechStackSection';
 
 const Home = () => {
   return (
@@ -10,7 +9,7 @@ const Home = () => {
       <Header />
       <main className="flex-1">
         <HeroSection />
-        {/* <TechStack /> */}
+        <TechStackSection />
       </main>
       
       <Footer />
