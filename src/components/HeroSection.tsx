@@ -17,7 +17,10 @@ const HeroSection = () => {
         <h1 className="text-5xl font-bold text-[#42446E]">My name is</h1>
         <h1 className="text-5xl font-bold text-[#42446E]">Matheus Felipe</h1>
         <h1 className="text-5xl font-bold text-[#42446E]">
-          I build things for web
+          I build things
+        </h1>
+        <h1 className="text-5xl font-bold text-[#42446E]">
+        for mobile and web
         </h1>
       </div>
       <div className="rounded-full bg-purple-500 min-w-80 max-w-80 h-80 hidden md:flex items-center justify-center overflow-hidden mt-8 md:mt-0 ">
