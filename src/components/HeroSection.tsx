@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <section className="flex flex-col md:flex-row justify-between items-center container mx-auto 2xl:px-48 xl:px-24  my-16 md:my-56 ">
-      <div className="rounded-full bg-purple-500 min-w-60 h-60  md:hidden flex items-center justify-center overflow-hidden mt-8 md:mt-0 ">
+    <section className="flex flex-col md:flex-row justify-between items-center container mx-auto 2xl:px-48 xl:px-24 mb-16 mt-0 md:my-44 ">
+      <div className="rounded-full bg-purple-500 min-w-60 h-60  md:hidden flex items-center justify-center overflow-hidden mt-4 md:mt-0 ">
         <Image
           src="/profile.jpg"
           alt="Matheus Felipe"
@@ -12,14 +12,14 @@ const HeroSection = () => {
           className="rounded-full"
         />
       </div>
-      <div className="text-left   p-2 mt-20 md:mt-0 md:m-0">
-        <h1 className="text-5xl font-bold text-[#42446E]">Hi 👋,</h1>
-        <h1 className="text-5xl font-bold text-[#42446E]">My name is</h1>
-        <h1 className="text-5xl font-bold text-[#42446E]">Matheus Felipe</h1>
-        <h1 className="text-5xl font-bold text-[#42446E]">
+      <div className="text-left mx-0 w-full p-2 px-4 mt-12 md:mt-0 md:m-0">
+        <h1 className="text-3xl sm:text-5xl font-bold text-[#42446E]">Hi 👋,</h1>
+        <h1 className="text-3xl sm:text-5xl font-bold text-[#42446E]">My name is</h1>
+        <h1 className="text-4xl sm:text-6xl font-bold text-[#42446E]">Matheus Felipe</h1>
+        <h1 className="text-3xl sm:text-5xl font-bold text-[#42446E]">
           I build things
         </h1>
-        <h1 className="text-5xl font-bold text-[#42446E]">
+        <h1 className="text-3xl sm:text-5xl font-bold text-[#42446E]">
         for mobile and web
         </h1>
       </div>
