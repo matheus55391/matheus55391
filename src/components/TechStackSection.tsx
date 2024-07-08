@@ -17,9 +17,9 @@ import {
 const TechStackSection = () => {
   return (
     <section className="container mx-auto my-16 text-center ">
-      <h2 className="text-4xl font-bold text-[#42446E]">My Tech Stack</h2>
+      <h2 className="text-4xl font-bold text-[#42446E]">Meu conjunto de tecnologias</h2>
       <p className="text-xl mt-4 text-gray-500 hover:text-gray-600 transition-all">
-        Technologies I've been working with recently
+        Tecnologias com as quais tenho trabalhado recentemente
       </p>
 
       <div className="flex flex-col justify-center mt-8 space-y-4 md:space-y-20  md:p-8 ">

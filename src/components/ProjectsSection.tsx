@@ -3,9 +3,9 @@ import Image from "next/image";
 const ProjectsSection = () => {
   return (
     <section className="container mx-auto my-16 text-center">
-      <h2 className="text-4xl font-bold text-[#42446E]">Projects</h2>
+      <h2 className="text-4xl font-bold text-[#42446E]">Projetos</h2>
       <p className="text-xl mt-4 text-gray-500 hover:text-gray-600 transition-all">
-        This section is under development. Stay tuned for updates!
+        Esta seção está em desenvolvimento. Fique ligado para atualizações!
       </p>
       <div className="flex justify-center mt-8">
         <Image
