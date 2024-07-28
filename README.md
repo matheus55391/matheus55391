@@ -17,9 +17,9 @@
 
 ### ✨ About  :
 
-- 🤠 Graduated in Systems Analysis and Development at Uninassau.
+- 🤠 Graduated in Systems Analysis and Development.
 - 🤖 Currently working as a Full Stack developer.
-- 👽 Currently studying TDD and Mobile Development.
+- 👽 Currently studying Machine Learning.
 
 <div align="center">
 
