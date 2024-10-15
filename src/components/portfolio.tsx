@@ -17,7 +17,7 @@ import US from "country-flag-icons/react/3x2/US";
 import BR from "country-flag-icons/react/3x2/BR";
 import useLocale from "@/hooks/useLocale";
 import DownloadCVButton from "./DownloadCVButton";
-import { FooterComponent } from "./footer";
+import { FooterComponent } from "./Footer";
 
 export function PortfolioComponent() {
   const [isDarkMode, setIsDarkMode] = useState(false);
