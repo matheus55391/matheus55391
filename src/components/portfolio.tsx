@@ -81,29 +81,29 @@ export function PortfolioComponent() {
             </button>
           </div>
         </header>
-        <section className="flex items-center justify-between space-x-8 mb-12">
-          <div>
-            <h2 className="text-4xl font-bold mb-2">{t("main.me.name")}</h2>
+        <section className="flex flex-col-reverse md:flex-row items-center justify-between space-x-8 md:space-x-0 space-y-8 md:space-y-0 mb-12 p-2 md:p-0">
+          <div className="md:w-1/2">
+            <h2 className="text-2xl md:text-4xl font-bold mb-2">{t("main.me.name")}</h2>
             <p className="text- mb-4">{t("main.me.role")}</p>
             <DownloadCVButton />
           </div>
           <img
             src="https://media.licdn.com/dms/image/v2/D4D03AQHJyY2ua1Ih7A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1709564099217?e=1734566400&v=beta&t=tQjbF10MUpemCVamstmcL4wasjnpS7gYJ0Qjw5A-VEI"
             alt="Matheus Felipe"
-            className="rounded-full "
+            className="rounded-full md:w-1/4"
           />
         </section>
 
-        <section className="mb-12">
-          <h3 className="text-2xl font-bold mb-4 flex w-fit border-b-4">
+        <section className="mb-10 px-2 md:p-0">
+          <h3 className="text-2xl font-bold mb-4 flex w-fit border-b-4 text-justify">
             <User className="mr-2" /> {t("main.about.title")}
           </h3>
-          <p className="mb-4 ml-8 text-lg decoration-current">
+          <p className="mb-4 ml-8 text-lg decoration-current ">
             {t("main.about.description")}
           </p>
         </section>
 
-        <section className="mb-12">
+        <section className="mb-12 p-2 md:p-0">
           <h3 className="text-2xl font-bold mb-4 flex items-center w-fit border-b-4">
             <GraduationCap className="mr-2" /> {t("main.education.title")}
           </h3>
@@ -119,7 +119,7 @@ export function PortfolioComponent() {
           </div>
         </section>
 
-        <section className="mb-12">
+        <section className="mb-12 p-2 md:p-0">
           <h3 className="text-2xl font-bold mb-4 flex items-center border-b-4 w-fit">
             <Briefcase className="mr-2" /> {t("main.experience.title")}
           </h3>
