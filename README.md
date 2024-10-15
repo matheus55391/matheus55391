@@ -17,9 +17,9 @@
     <h4>
     - 🤖 Currently working as a Full Stack dev.
   </h4>
-    <h4>
+<!--     <h4>
     - 👽 Currently studying Machine Learning.
-  </h4>
+  </h4> -->
 </div>
 
 <div align="center">
