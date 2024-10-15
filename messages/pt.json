@@ -1,0 +1,59 @@
+{
+  "header": {
+    "title": "Matheus Felipe",
+    "projects": "Projetos"
+  },
+  "main": {
+    "me": {
+      "name": "Matheus Felipe Vieira Santiago",
+      "role": "Desenvolvedor Full Stack Pleno",
+      "cv": "Curriculo"
+    },
+    "about": {
+      "title": "Sobre Mim",
+      "description": "Desenvolvedor Full Stack especializado em sistemas de alta concorrência, com foco em aplicações escaláveis e testáveis, orquestração de contêineres e microsserviços."
+    },
+    "education": {
+      "title": "Formação",
+      "institution": "UNINASSAU",
+      "level": "Curso Superior de Tecnologia",
+      "degree": "Análise e Desenvolvimento de Sistemas",
+      "duration": "Jun de 2019 - Dez de 2021"
+    },
+    "experience": {
+      "title": "Experiência",
+      "positions": {
+        "penseappsoftware": {
+          "title": "Desenvolvedor Full Stack Pleno",
+          "type": "Tempo integral",
+          "duration": "Set de 2022 - Presente",
+          "location": "Remota"
+        },
+        "altatech": {
+          "title": "Desenvolvedor Full Stack",
+          "type": "Tempo integral",
+          "duration": "Jun de 2022 - Set de 2022 · 4 meses",
+          "location": "Remota"
+        },
+        "atos_capital": {
+          "title": "Desenvolvedor",
+          "type": "Tempo integral",
+          "duration": "Nov de 2021 - Jun de 2022 · 8 meses",
+          "location": "Remota"
+        },
+        "avonale": {
+          "title": "Desenvolvedor",
+          "type": "Meio período",
+          "duration": "Mai de 2021 - Out de 2021 · 6 meses",
+          "location": "Híbrido: Aracaju, Sergipe, Brasil"
+        },
+        "implanti": {
+          "title": "Desenvolvedor",
+          "type": "Estágio",
+          "duration": "Dez de 2019 - Mar de 2020 · 4 meses",
+          "location": "Rua Porto da Folha, 850, Suíssa, Aracaju - SE, CEP: 49055-365"
+        }
+      }
+    }
+  }
+}

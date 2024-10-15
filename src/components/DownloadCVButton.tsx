@@ -1,11 +1,20 @@
+"use client";
+
+import { useTranslations } from "next-intl";
+import { Button } from "./ui/button";
+import { Download } from "lucide-react";
+
 const DownloadCVButton = () => {
+  const t = useTranslations();
   return (
     <a
       href="/curriculo_matheus.pdf"
       download
-      className="bg-black rounded-xl hover:cursor-pointer text-white p-2 px-4 sm:p-1 sm:px-2.5 text-center "
     >
-      <span className="text-xs font-semibold sm:font-medium">Download CV</span>
+      <Button className="w-fit space-x-2">
+        <Download className="w-4 h-4"/>
+        <span>{t("main.me.cv")}</span>
+      </Button>
     </a>
   );
 };

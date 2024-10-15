@@ -1,0 +1,60 @@
+{
+  "header": {
+    "title": "Matheus Felipe",
+    "projects": "Projects"
+  },
+  "main": {
+    "me": {
+      "name": "Matheus Felipe Vieira Santiago",
+      "role": "Full Stack Developer",
+      "cv": "Resume"
+    },
+    "about": {
+      "title": "About Me",
+      "description": "Full Stack Developer specializing in high concurrency systems, focusing on scalable and testable applications, container orchestration, and microservices."
+    },
+    "education": {
+      "title": "Education",
+      "institution": "UNINASSAU",
+      "level": "Higher Education Course in Technology (CST)",
+      "degree": "Analysis and Development of Systems",
+      "duration": "Jun 2019 - Dec 2021"
+    },
+    "experience": {
+      "title": "Experience",
+      "positions": {
+        "penseappsoftware": {
+          "title": "Mid-level Full Stack Developer",
+          "enterprise": "penseappsoftware",
+          "type": "Full-time",
+          "duration": "Sept 2022 - Present",
+          "location": "Remote"
+        },
+        "altatech": {
+          "title": "Full Stack Developer",
+          "type": "Full-time",
+          "duration": "Jun 2022 - Sept 2022 · 4 months",
+          "location": "Remote"
+        },
+        "atos_capital": {
+          "title": "Developer",
+          "type": "Full-time",
+          "duration": "Nov 2021 - Jun 2022 · 8 months",
+          "location": "Remote"
+        },
+        "avonale": {
+          "title": "Developer",
+          "type": "Part-time",
+          "duration": "May 2021 - Oct 2021 · 6 months",
+          "location": "Hybrid: Aracaju, Sergipe, Brazil"
+        },
+        "implanti": {
+          "title": "Intern",
+          "type": "Internship",
+          "duration": "Dec 2019 - Mar 2020 · 4 months",
+          "location": "Rua Porto da Folha, 850, Suíssa, Aracaju - SE, CEP: 49055-365"
+        }
+      }
+    }
+  }
+}

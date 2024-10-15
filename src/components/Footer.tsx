@@ -1,49 +1,80 @@
-import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
+"use client";
 
-const Footer = () => {
+import { Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { useTranslations } from "next-intl";
+import Link from "next/link";
+
+export function FooterComponent({ isDarkMode }: { isDarkMode: boolean }) {
+  const t = useTranslations();
+
   return (
-    <footer className=" items-center justify-center py-6 mt-auto">
-      <div className="container mx-auto text-center md:text-left space-y-4 flex flex-col items-center justify-center text-[#42446E]">
-        {/* Phone and Email */}
-        <div className="flex flex-col md:flex-row justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-4 mt-4">
-          <p className="text-sm md:text-base text-[#42446E]">+55 79 99122-4649</p>
-          <p className="text-sm md:text-base">
-            <a href="mailto:matheus.felipe55391@gmail.com">
-              matheus.felipe55391@gmail.com
-            </a>
-          </p>
+    <footer
+      className={`border-t border-gray-200 ${
+        isDarkMode ? " text-white" : "bg-white text-gray-800"
+      }`}
+    >
+      <div className="container mx-auto px-4 py-8">
+        <div className="flex flex-col md:flex-row justify-between items-center">
+          <div className="mb-4 md:mb-0">
+            <h2 className="text-2xl font-bold">Matheus Felipe</h2>
+            <p className={`${isDarkMode ? "text-gray-400" : "text-gray-600"}`}>
+              {t("main.me.role")}
+            </p>
+          </div>
+          <div className="flex items-center space-x-4">
+            <Link
+              href="https://github.com/matheus55391"
+              className={`hover:text-gray-600 transition-colors ${
+                isDarkMode
+                  ? "text-gray-300 hover:text-gray-100"
+                  : "text-gray-600 hover:text-gray-800"
+              }`}
+            >
+              <Github className="w-6 h-6" />
+              <span className="sr-only">GitHub</span>
+            </Link>
+            <Link
+              href="https://www.linkedin.com/in/matheus-felipe-vieira-santiago-5a321a208/"
+              className={`hover:text-gray-600 transition-colors ${
+                isDarkMode
+                  ? "text-gray-300 hover:text-gray-100"
+                  : "text-gray-600 hover:text-gray-800"
+              }`}
+            >
+              <Linkedin className="w-6 h-6" />
+              <span className="sr-only">LinkedIn</span>
+            </Link>
+            <Link
+              href="https://x.com/s7dx7rtnpr"
+              className={`hover:text-gray-600 transition-colors ${
+                isDarkMode
+                  ? "text-gray-300 hover:text-gray-100"
+                  : "text-gray-600 hover:text-gray-800"
+              }`}
+            >
+              <Twitter className="w-6 h-6" />
+              <span className="sr-only">Twitter</span>
+            </Link>
+            <Link
+              href="matheus.felipe55391@gmail.com"
+              className={`hover:text-gray-600 transition-colors ${
+                isDarkMode
+                  ? "text-gray-300 hover:text-gray-100"
+                  : "text-gray-600 hover:text-gray-800"
+              }`}
+            >
+              <Mail className="w-6 h-6" />
+              <span className="sr-only">Email</span>
+            </Link>
+          </div>
         </div>
-
-        {/* Icons */}
-        <div className="flex justify-center md:justify-start space-x-4">
-          <a
-            href="https://github.com/matheus55391"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm md:text-base text-gray-800"
-          >
-            <FaGithub size={24} />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/matheus-felipe-vieira-santiago-5a321a208/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm md:text-base text-blue-500"
-          >
-            <FaLinkedin size={24} />
-          </a>
-          <a
-            href="https://www.youtube.com/channel/UCLz2c241hvFzWu53Xx35Ojg"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm md:text-base text-red-500"
-          >
-            <FaYoutube size={24} />
-          </a>
+        <div className="mt-8 text-center">
+          <p className={`${isDarkMode ? "text-gray-400" : "text-gray-600"}`}>
+            &copy; {new Date().getFullYear()} Matheus Felipe. Todos os direitos
+            reservados.
+          </p>
         </div>
       </div>
     </footer>
   );
-};
-
-export default Footer;
+}
