@@ -1,25 +1,26 @@
 
 <div  align="center">
-  <h1>
+  <h2>
     Hi, I'm Matheus Felipe!!!
     <br/>
     Welcome to my Git 🚀
-  </h1>
+  </h2>
 </div>
-
-<p align='center'>
-  Full Stack Developer
-</p>
-
-<br/>
-
 
 
 ### ✨ About  :
 
-- 🤠 Graduated in Systems Analysis and Development at Uninassau.
-- 🤖 Currently working as a Full Stack developer.
-- 👽 Currently studying TDD and Mobile Development.
+<div>
+    <h4>
+      - 🤠 Graduated in Systems Analysis and Development.
+  </h4>
+    <h4>
+    - 🤖 Currently working as a Full Stack dev.
+  </h4>
+    <h4>
+    - 👽 Currently studying Machine Learning.
+  </h4>
+</div>
 
 <div align="center">
 
