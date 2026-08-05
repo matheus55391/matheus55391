@@ -239,7 +239,7 @@ function ProjectPreview({
               ))}
             </div>
           )}
-          {(type === "order" || type === "voting" || type === "pokenext") && (
+          {(type === "order" || type === "voting" || type === "seguros") && (
             <>
               <div className="flex gap-2">
                 <div

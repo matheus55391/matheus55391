@@ -1,29 +1,26 @@
 "use client";
-import { useEffect, useState } from "react";
+
+import { useTransition } from "react";
+import { useRouter } from "next/navigation";
+import { useLocale as useNextIntlLocale } from "next-intl";
 import { Locale } from "@/config";
-import { getUserLocale, setUserLocale } from "@/services/i18n/locale";
-import { startTransition } from "react";
+import { setUserLocale } from "@/services/i18n/locale";
 
 const useLocale = () => {
-  const [locale, setLocale] = useState<Locale | null>(null);
-
-  useEffect(() => {
-    const loadLocale = async () => {
-      const userLocale = await getUserLocale();
-      setLocale(userLocale as Locale);
-    };
-
-    loadLocale();
-  }, []);
+  const locale = useNextIntlLocale() as Locale;
+  const router = useRouter();
+  const [isPending, startTransition] = useTransition();
 
   const switchLocale = (value: Locale) => {
-    startTransition(() => {
-      setUserLocale(value);
-      setLocale(value); 
+    if (value === locale) return;
+
+    startTransition(async () => {
+      await setUserLocale(value);
+      router.refresh();
     });
   };
 
-  return { locale, switchLocale };
+  return { locale, switchLocale, isPending };
 };
 
 export default useLocale;
