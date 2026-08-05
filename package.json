@@ -19,7 +19,7 @@
     "clsx": "^2.1.1",
     "country-flag-icons": "^1.5.13",
     "lucide-react": "^0.487.0",
-    "next": "15.2.1",
+    "next": "15.2.8",
     "next-intl": "^3.26.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -37,4 +37,3 @@
     "typescript": "^5"
   }
 }
-
