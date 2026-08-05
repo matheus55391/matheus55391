@@ -16,8 +16,9 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Matheus Felipe Vieira Santiago",
-  description: "Full Stack Developer",
+  title: "Matheus Felipe Vieira Santiago | Senior Software Engineer",
+  description:
+    "Senior Software Engineer — React, Next.js, NestJS, .NET. Clinical System, MakeBio and scalable cloud platforms.",
 };
 
 export default async function RootLayout({

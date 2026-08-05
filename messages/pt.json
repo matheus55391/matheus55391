@@ -1,119 +1,171 @@
 {
   "header": {
     "title": "Matheus Felipe",
-    "projects": "Projetos"
+    "projects": "Projetos",
+    "services": "Serviços",
+    "contact": "Contato",
+    "experience": "Experiência"
   },
   "main": {
     "me": {
-      "name": "Matheus Felipe Vieira Santiago",
-      "role": "Desenvolvedor Full Stack",
+      "hello": "Hello World! Meu nome é",
+      "name": "Matheus",
+      "andIAm": "e sou",
+      "role": "Desenvolvedor Fullstack",
       "cv": "Baixar Currículo",
-      "location": "Brasil",
+      "location": "Aracaju, Brasil · Remoto",
       "email": "matheus.felipe55391@gmail.com",
-      "phone": "+55 79 99122-4649"
+      "phone": "+55 79 99122-4649",
+      "scroll": "Role para explorar"
     },
     "about": {
-      "title": "Sobre Mim",
-      "description": "Engenheiro Full Stack construindo sistemas escaláveis com NestJS, Next.js, React Native e .NET — de microsserviços orientados a eventos a apps mobile.",
-      "summary": "Engenheiro de Software Full Stack com experiência na construção de soluções completas para web e mobile usando Node.js (NestJS), Next.js/React, React Native e C# (.NET Core). Experiente no design de sistemas escaláveis com Clean Architecture, DDD, microsserviços e padrões orientados a eventos. Habilidoso em desenvolvimento frontend e backend, com forte domínio de DevOps com Docker, Kubernetes e CI/CD. Apaixonado por entregar código de alta qualidade e utilizando tecnologias modernas, incluindo IA e engenharia de prompts para acelerar o desenvolvimento."
+      "title": "Sobre",
+      "description": "Engenheiro de Software Senior com 6 anos construindo plataformas web, mobile e cloud. Entrego produtos de alta disponibilidade para 10k+ usuários/dia e SaaS multi-tenant de healthtech com 50+ clínicas pagantes.",
+      "summary": "Forte em React/Next.js, React Native, NestJS e ASP.NET Core / .NET — microsserviços, RabbitMQ, PostgreSQL, CI/CD e integrações de IA."
     },
     "skills": {
-      "title": "Habilidades",
-      "frontend": "Frontend",
-      "backend": "Backend",
-      "databases": "Bancos de Dados",
-      "devops": "DevOps & Cloud",
-      "architecture": "Arquitetura & Padrões"
+      "title": "Stack",
+      "github": "GitHub",
+      "react": "React",
+      "next": "Next.js",
+      "node": "Node.js",
+      "nestjs": "NestJS",
+      "dotnet": ".NET"
     },
-    "education": {
-      "title": "Formação",
-      "postgrad": {
-        "level": "Pós-Graduação",
-        "degree": "Engenharia de Software e Arquitetura de Sistemas",
-        "institution": "UNINASSAU",
-        "duration": "Concluído — 2025"
-      },
-      "associate": {
-        "level": "Curso Superior de Tecnologia",
-        "degree": "Análise e Desenvolvimento de Sistemas",
-        "institution": "UNINASSAU",
-        "duration": "Concluído — 2019"
+    "projects": {
+      "label": "Meu trabalho",
+      "title": "Veja os projetos em destaque",
+      "productionLabel": "Em produção",
+      "productionTitle": "Produtos no ar",
+      "researchLabel": "Pesquisa e estudo",
+      "researchTitle": "Experimentos e estudos no GitHub",
+      "viewLive": "Ver projeto",
+      "viewRepo": "Repositório",
+      "items": {
+        "clinical": {
+          "name": "Clinical System",
+          "description": "SaaS multi-tenant odontológico com 50+ clínicas pagantes — ASP.NET Core, Next.js, IA (Whisper), RabbitMQ e CI/CD."
+        },
+        "makebio": {
+          "name": "MakeBio",
+          "description": "SaaS brasileiro de link na bio — Next.js, Auth.js, Prisma, Stripe e deploy containerizado com Cloudflare."
+        },
+        "order": {
+          "name": "Order System Design",
+          "description": "System design B2B multi-tenant — NestJS, Next.js, Redis locks, RabbitMQ, reservas de estoque e monorepo."
+        },
+        "voting": {
+          "name": "Voting System",
+          "description": "Votação em tempo real (desafio BBB) — NestJS, Next.js, rate limit anti-bot, RabbitMQ e 1000+ votos/s."
+        },
+        "seguros": {
+          "name": "Seguros Hexagonal",
+          "description": "Microsserviços de propostas e contratação em .NET com Arquitetura Hexagonal, DDD, RabbitMQ e xUnit."
+        },
+        "github": {
+          "name": "Mais no GitHub",
+          "description": "Repositórios públicos, desafios e experimentos de arquitetura, APIs e frontend."
+        }
+      }
+    },
+    "services": {
+      "label": "Meus serviços",
+      "title": "Como posso ajudar o seu negócio",
+      "items": {
+        "web": {
+          "title": "Websites e Aplicativos",
+          "description": "Interfaces web e mobile com React, Next.js e React Native"
+        },
+        "api": {
+          "title": "API e banco de dados",
+          "description": "Serviços escaláveis com NestJS, .NET, PostgreSQL e mensageria"
+        },
+        "devops": {
+          "title": "DevOps",
+          "description": "CI/CD, containers, cloud (GCP/AWS) e infraestrutura da aplicação"
+        }
       }
     },
     "experience": {
-      "title": "Experiência",
+      "label": "Carreira",
+      "title": "Experiência profissional",
       "positions": {
         "spesia": {
-          "title": "Engenheiro de Software",
+          "title": "Engenheiro de Software Senior",
           "enterprise": "Spesia",
           "type": "Tempo integral",
-          "duration": "Out 2025 — Presente",
+          "duration": "Set 2025 — Presente",
           "location": "Remoto",
           "bullets": {
-            "0": "Desenvolvendo features full-stack para uma plataforma oncológica com IA usando NestJS (backend) e Next.js (frontend) com arquitetura de microsserviços e Nx monorepo",
-            "1": "Implementando workflows orientados a eventos com Kafka e Redis, aplicando Clean Architecture, CQRS e design patterns em toda a stack",
-            "2": "Desenvolvendo componentes de UI escaláveis e APIs RESTful para gestão de tratamentos e prescrições",
-            "3": "Gerenciando deployments cloud-native com Docker, Kubernetes (GKE) e pipelines de CI/CD"
+            "0": "Reduzi buscas clínicas de minutos para 1–3s com full-text search e otimização de queries em NestJS",
+            "1": "Integrei LLM e speech-to-text em fluxos NestJS + Next.js para insights clínicos em poucos cliques",
+            "2": "Arquiteturei 9 microsserviços NestJS (DDD, TDD, RabbitMQ, Saga) em plataforma oncológica com IA",
+            "3": "Evoluí CI/CD no GCP (testes, containers, GKE) na migração para Google Cloud"
           }
         },
-        "penseappsoftware": {
+        "penseapp": {
           "title": "Desenvolvedor Full Stack",
           "enterprise": "Penseapp",
           "type": "Tempo integral",
-          "duration": "Set 2022 — Out 2025",
+          "duration": "Set 2022 — Set 2025",
           "location": "Remoto",
           "bullets": {
-            "0": "Desenvolveu soluções completas para múltiplos produtos: apps web (React, Next.js), mobile (React Native/Expo) e APIs backend (.NET, ASP.NET, NestJS)",
-            "1": "Construiu features para plataformas de cartão alimentação, venda de gift cards, tag de pedágio e sistemas de passagens (ônibus/aéreas, hotéis)",
-            "2": "Integrou gateways de pagamento, APIs externas e serviços de terceiros em ambiente cloud"
+            "0": "Operei produtos para 10k+ usuários/dia com baixa latência e alta disponibilidade",
+            "1": "Arquiteturei apps React Native (Expo) e plataformas Next.js com Keycloak multi-tenant",
+            "2": "Construí APIs em NestJS e C# .NET com PostgreSQL, MongoDB, Redis e RabbitMQ"
           }
         },
-        "altatech": {
-          "title": "Desenvolvedor Full Stack",
-          "enterprise": "Altatech",
-          "type": "Tempo integral",
-          "duration": "Jun 2022 — Set 2022",
-          "location": "Remoto",
-          "bullets": {
-            "0": "Contribuiu em plataforma de aprendizado de idiomas com IA: integração com OpenAI, reconhecimento de voz, personalização e analytics de desempenho",
-            "1": "Refatorou arquitetura de plataforma VPS cloud, melhorando performance no frontend e backend"
-          }
-        },
-        "atos_capital": {
+        "atos": {
           "title": "Desenvolvedor Backend",
           "enterprise": "Atos Capital",
           "type": "Tempo integral",
           "duration": "Nov 2021 — Jun 2022",
           "location": "Remoto",
           "bullets": {
-            "0": "Construiu portais de vendas, dashboards administrativos e sistemas de gestão de VMs com Python (FastAPI/Flask), NestJS, Next.js e Angular",
-            "1": "Desenvolveu microsserviços RESTful integrados ao SQL Server em ambiente Agile"
+            "0": "Mantive backends fintech em C# .NET Core de alto volume e estabilidade transacional",
+            "1": "Automatizei integração NFC-e e evoluí queries em SQL Server/Oracle com milhões de registros"
           }
         },
         "avonale": {
-          "title": "Desenvolvedor Backend",
+          "title": "Estagiário de Desenvolvimento",
           "enterprise": "Avonale WorkPlace",
-          "type": "Tempo integral",
-          "duration": "Mai 2021 — Out 2021",
-          "location": "Híbrido · Aracaju, Brasil",
-          "bullets": {
-            "0": "Desenvolveu integrações de pagamento, emissão de NFC-e e conectores ERP (SAP) com .NET Core",
-            "1": "Construiu e manteve APIs RESTful garantindo alta disponibilidade e conformidade com SLA",
-            "2": "Trabalhou com SQL Server e Oracle para processamento de transações e geração de relatórios"
-          }
-        },
-        "implanti": {
-          "title": "Desenvolvedor Backend",
-          "enterprise": "Implanti Soluções",
           "type": "Estágio",
-          "duration": "Dez 2019 — Mar 2020",
-          "location": "Aracaju, Brasil",
+          "duration": "Mai 2021 — Out 2021",
+          "location": "Híbrido · Aracaju",
           "bullets": {
-            "0": "Desenvolveu e manteve aplicações PHP para emissão de nota fiscal eletrônica (NF-e)",
-            "1": "Prestou suporte técnico e assistência básica de infraestrutura de TI"
+            "0": "Desenvolvi APIs C# .NET MVC na plataforma FANDI de financiamento veicular",
+            "1": "Otimizei queries SQL Server (stored procedures, transactions e índices)"
           }
         }
       }
+    },
+    "education": {
+      "label": "Formação",
+      "title": "Educação",
+      "postgrad": {
+        "level": "Pós-Graduação",
+        "degree": "Engenharia de Software e Arquitetura de Sistemas",
+        "institution": "UNINASSAU",
+        "duration": "Nov 2025 — Jul 2026 (em andamento)"
+      },
+      "associate": {
+        "level": "Tecnólogo",
+        "degree": "Análise e Desenvolvimento de Sistemas",
+        "institution": "UNINASSAU",
+        "duration": "Jun 2019 — Dez 2021"
+      }
+    },
+    "contact": {
+      "label": "Contato",
+      "title": "Gostou do meu trabalho?",
+      "subtitle": "Entre em contato ou acompanhe as minhas redes sociais!",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "email": "E-mail",
+      "copied": "Copiado!"
     }
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados."
   }
 }

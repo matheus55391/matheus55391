@@ -1,119 +1,171 @@
 {
   "header": {
     "title": "Matheus Felipe",
-    "projects": "Projects"
+    "projects": "Projects",
+    "services": "Services",
+    "contact": "Contact",
+    "experience": "Experience"
   },
   "main": {
     "me": {
-      "name": "Matheus Felipe Vieira Santiago",
-      "role": "Full Stack Developer",
+      "hello": "Hello World! My name is",
+      "name": "Matheus",
+      "andIAm": "and I'm a",
+      "role": "Fullstack Developer",
       "cv": "Download Resume",
-      "location": "Brazil",
+      "location": "Aracaju, Brazil · Remote",
       "email": "matheus.felipe55391@gmail.com",
-      "phone": "+55 79 99122-4649"
+      "phone": "+55 79 99122-4649",
+      "scroll": "Scroll to explore"
     },
     "about": {
-      "title": "About Me",
-      "description": "Full Stack Engineer building scalable systems with NestJS, Next.js, React Native, and .NET — from event-driven microservices to polished mobile apps.",
-      "summary": "Full Stack Software Engineer with expertise in building end-to-end solutions across web and mobile platforms using Node.js (NestJS), Next.js/React, React Native, and C# (.NET Core). Experienced in designing scalable systems with Clean Architecture, DDD, microservices, and event-driven patterns. Proficient in both frontend and backend development, with strong DevOps skills in Docker, Kubernetes, and CI/CD. Passionate about delivering high-quality, maintainable code and leveraging modern technologies including AI/prompt engineering to accelerate development."
+      "title": "About",
+      "description": "Senior Software Engineer with 6 years building scalable web, mobile and cloud platforms. Delivered high-availability products for 10k+ daily users and multi-tenant healthtech SaaS with 50+ paying clinics.",
+      "summary": "Strong in React/Next.js, React Native, NestJS and ASP.NET Core / .NET — microservices, RabbitMQ, PostgreSQL, CI/CD and AI integrations."
     },
     "skills": {
-      "title": "Skills",
-      "frontend": "Frontend",
-      "backend": "Backend",
-      "databases": "Databases",
-      "devops": "DevOps & Cloud",
-      "architecture": "Architecture & Patterns"
+      "title": "Stack",
+      "github": "GitHub",
+      "react": "React",
+      "next": "Next.js",
+      "node": "Node.js",
+      "nestjs": "NestJS",
+      "dotnet": ".NET"
     },
-    "education": {
-      "title": "Education",
-      "postgrad": {
-        "level": "Postgraduate",
-        "degree": "Software Engineering and Systems Architecture",
-        "institution": "UNINASSAU",
-        "duration": "Completed — 2025"
-      },
-      "associate": {
-        "level": "Associate Degree",
-        "degree": "Systems Analysis and Development",
-        "institution": "UNINASSAU",
-        "duration": "Completed — 2019"
+    "projects": {
+      "label": "My work",
+      "title": "Featured projects",
+      "productionLabel": "In production",
+      "productionTitle": "Live products",
+      "researchLabel": "Research & study",
+      "researchTitle": "GitHub experiments and studies",
+      "viewLive": "View project",
+      "viewRepo": "Repository",
+      "items": {
+        "clinical": {
+          "name": "Clinical System",
+          "description": "Multi-tenant dental SaaS with 50+ paying clinics — ASP.NET Core, Next.js, AI (Whisper), RabbitMQ and CI/CD."
+        },
+        "makebio": {
+          "name": "MakeBio",
+          "description": "Brazilian link-in-bio SaaS — Next.js, Auth.js, Prisma, Stripe and containerized deploys with Cloudflare."
+        },
+        "order": {
+          "name": "Order System Design",
+          "description": "Multi-tenant B2B system design — NestJS, Next.js, Redis locks, RabbitMQ, stock reservations and monorepo."
+        },
+        "voting": {
+          "name": "Voting System",
+          "description": "Real-time voting challenge — NestJS, Next.js, anti-bot rate limit, RabbitMQ and 1000+ votes/s."
+        },
+        "seguros": {
+          "name": "Insurance Hexagonal",
+          "description": ".NET microservices for proposals and contracting with Hexagonal Architecture, DDD, RabbitMQ and xUnit."
+        },
+        "github": {
+          "name": "More on GitHub",
+          "description": "Public repos, challenges and experiments in architecture, APIs and frontend."
+        }
+      }
+    },
+    "services": {
+      "label": "My services",
+      "title": "How I can help your business",
+      "items": {
+        "web": {
+          "title": "Websites & Apps",
+          "description": "Web and mobile interfaces with React, Next.js and React Native"
+        },
+        "api": {
+          "title": "APIs & Databases",
+          "description": "Scalable services with NestJS, .NET, PostgreSQL and messaging"
+        },
+        "devops": {
+          "title": "DevOps",
+          "description": "CI/CD, containers, cloud (GCP/AWS) and application infrastructure"
+        }
       }
     },
     "experience": {
-      "title": "Experience",
+      "label": "Career",
+      "title": "Professional experience",
       "positions": {
         "spesia": {
-          "title": "Software Engineer",
+          "title": "Senior Software Engineer",
           "enterprise": "Spesia",
           "type": "Full-time",
-          "duration": "Oct 2025 — Present",
+          "duration": "Sep 2025 — Present",
           "location": "Remote",
           "bullets": {
-            "0": "Building full-stack features for an AI-driven oncology platform using NestJS (backend) and Next.js (frontend) with microservices architecture and Nx monorepo",
-            "1": "Implementing event-driven workflows with Kafka and Redis, applying Clean Architecture, CQRS, and design patterns across the stack",
-            "2": "Developing scalable UI components and RESTful APIs for treatment and prescription management",
-            "3": "Managing cloud-native deployments with Docker, Kubernetes (GKE), and CI/CD pipelines"
+            "0": "Cut clinical patient search from minutes to 1–3s with full-text search and query optimization in NestJS",
+            "1": "Integrated LLM and speech-to-text into NestJS + Next.js workflows for case insights in a few clicks",
+            "2": "Architected 9 NestJS microservices (DDD, TDD, RabbitMQ, Saga) for an AI-assisted oncology platform",
+            "3": "Evolved GCP CI/CD (tests, containers, GKE) during the Google Cloud migration"
           }
         },
-        "penseappsoftware": {
+        "penseapp": {
           "title": "Full Stack Developer",
           "enterprise": "Penseapp",
           "type": "Full-time",
-          "duration": "Sep 2022 — Oct 2025",
+          "duration": "Sep 2022 — Sep 2025",
           "location": "Remote",
           "bullets": {
-            "0": "Developed end-to-end solutions for multiple products: web apps (React, Next.js), mobile (React Native/Expo), and backend APIs (.NET, ASP.NET, NestJS)",
-            "1": "Built complete features for food card platforms, gift card sales, toll tag systems, and travel booking solutions (bus/airline tickets, hotels)",
-            "2": "Integrated payment gateways, external APIs, and third-party services in a cloud-based environment"
+            "0": "Supported 10k+ daily users with low-latency, high-availability product design",
+            "1": "Architected React Native (Expo) apps and Next.js platforms with multi-tenant Keycloak",
+            "2": "Built NestJS and C# .NET APIs with PostgreSQL, MongoDB, Redis and RabbitMQ"
           }
         },
-        "altatech": {
-          "title": "Full Stack Developer",
-          "enterprise": "Altatech",
-          "type": "Full-time",
-          "duration": "Jun 2022 — Sep 2022",
-          "location": "Remote",
-          "bullets": {
-            "0": "Contributed to an AI-powered language learning platform with OpenAI integration, speech recognition, user personalization, and performance analytics",
-            "1": "Refactored VPS cloud and storage platform architecture, improving performance across frontend and backend"
-          }
-        },
-        "atos_capital": {
+        "atos": {
           "title": "Backend Developer",
           "enterprise": "Atos Capital",
           "type": "Full-time",
           "duration": "Nov 2021 — Jun 2022",
           "location": "Remote",
           "bullets": {
-            "0": "Built sales portals, admin dashboards, and VM management systems using Python (FastAPI/Flask), NestJS, Next.js, and Angular",
-            "1": "Developed RESTful microservices and connected them to SQL Server databases in an Agile environment"
+            "0": "Maintained high-volume fintech backends in C# .NET Core with transactional stability",
+            "1": "Automated NFC-e integration and evolved SQL Server/Oracle queries on multi-million-row datasets"
           }
         },
         "avonale": {
-          "title": "Backend Developer",
+          "title": "Software Developer Intern",
           "enterprise": "Avonale WorkPlace",
-          "type": "Full-time",
-          "duration": "May 2021 — Oct 2021",
-          "location": "Hybrid · Aracaju, Brazil",
-          "bullets": {
-            "0": "Developed payment system integrations, NFC-e issuance features, and ERP (SAP) connectors using .NET Core",
-            "1": "Built and maintained RESTful APIs ensuring high availability and SLA compliance",
-            "2": "Worked with SQL Server and Oracle databases for transaction processing and reporting"
-          }
-        },
-        "implanti": {
-          "title": "Backend Developer",
-          "enterprise": "Implanti Soluções",
           "type": "Internship",
-          "duration": "Dec 2019 — Mar 2020",
-          "location": "Aracaju, Brazil",
+          "duration": "May 2021 — Oct 2021",
+          "location": "Hybrid · Aracaju",
           "bullets": {
-            "0": "Developed and maintained PHP applications for electronic invoicing (NF-e)",
-            "1": "Provided technical support and basic IT infrastructure assistance"
+            "0": "Built C# .NET MVC APIs on the FANDI vehicle financing platform",
+            "1": "Optimized SQL Server queries (stored procedures, transactions and indexes)"
           }
         }
       }
+    },
+    "education": {
+      "label": "Education",
+      "title": "Academic background",
+      "postgrad": {
+        "level": "Postgraduate",
+        "degree": "Software Engineering and Systems Architecture",
+        "institution": "UNINASSAU",
+        "duration": "Nov 2025 — Jul 2026 (in progress)"
+      },
+      "associate": {
+        "level": "Associate Degree",
+        "degree": "Systems Analysis and Development",
+        "institution": "UNINASSAU",
+        "duration": "Jun 2019 — Dec 2021"
+      }
+    },
+    "contact": {
+      "label": "Contact",
+      "title": "Like my work?",
+      "subtitle": "Get in touch or follow me on social media!",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "email": "E-mail",
+      "copied": "Copied!"
     }
+  },
+  "footer": {
+    "rights": "All rights reserved."
   }
 }

@@ -9,56 +9,27 @@
 }
 
 @layer base {
-  /* ── Light mode ─────────────────────────────────────────────────── */
   :root {
-    --background: 220 20% 99%;
-    --foreground: 220 14% 10%;
-    --card: 220 20% 97%;
-    --card-foreground: 220 14% 10%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 220 14% 10%;
-    --primary: 186 87% 36%;          /* cyan-600 – readable on white */
+    --background: 0 0% 5%;
+    --foreground: 0 0% 96%;
+    --card: 0 0% 9%;
+    --card-foreground: 0 0% 96%;
+    --popover: 0 0% 9%;
+    --popover-foreground: 0 0% 96%;
+    --primary: 350 80% 58%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 220 14% 93%;
-    --secondary-foreground: 220 14% 10%;
-    --muted: 220 14% 93%;
-    --muted-foreground: 220 9% 46%;
-    --accent: 186 87% 36%;
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 96%;
+    --muted: 0 0% 14%;
+    --muted-foreground: 0 0% 62%;
+    --accent: 270 70% 65%;
     --accent-foreground: 0 0% 100%;
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 220 14% 87%;
-    --input: 220 14% 87%;
-    --ring: 186 87% 36%;
-    --radius: 0.75rem;
-  }
-
-  /* ── Dark mode (default for this portfolio) ─────────────────────── */
-  .dark {
-    --background: 220 13% 7%;        /* #0d1117  GitHub dark */
-    --foreground: 210 8% 91%;        /* #e6edf3 */
-    --card: 215 10% 11%;             /* #161b22 */
-    --card-foreground: 210 8% 91%;
-    --popover: 215 10% 11%;
-    --popover-foreground: 210 8% 91%;
-    --primary: 186 97% 53%;          /* cyan-400  #22d3ee */
-    --primary-foreground: 220 13% 7%;
-    --secondary: 215 9% 16%;         /* #21262d */
-    --secondary-foreground: 210 8% 91%;
-    --muted: 215 9% 16%;
-    --muted-foreground: 213 7% 55%;  /* #8b949e */
-    --accent: 186 97% 53%;
-    --accent-foreground: 220 13% 7%;
     --destructive: 0 65% 51%;
     --destructive-foreground: 0 0% 98%;
-    --border: 215 7% 19%;            /* #30363d */
-    --input: 215 7% 19%;
-    --ring: 186 97% 53%;
-    --chart-1: 186 97% 53%;
-    --chart-2: 160 60% 45%;
-    --chart-3: 280 65% 60%;
-    --chart-4: 43 74% 66%;
-    --chart-5: 340 75% 55%;
+    --border: 0 0% 16%;
+    --input: 0 0% 16%;
+    --ring: 350 80% 58%;
+    --radius: 0.875rem;
   }
 }
 
@@ -67,7 +38,7 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground antialiased;
     font-family: var(--font-geist-sans), system-ui, sans-serif;
   }
   html {
@@ -75,3 +46,65 @@
   }
 }
 
+@layer utilities {
+  .glow-lines {
+    pointer-events: none;
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+  }
+
+  .glow-line {
+    position: absolute;
+    height: 2px;
+    border-radius: 999px;
+    filter: blur(0.5px);
+    opacity: 0.55;
+    animation: glow-drift 8s ease-in-out infinite;
+  }
+
+  .glow-line:nth-child(odd) {
+    animation-direction: reverse;
+  }
+
+  @keyframes glow-drift {
+    0%,
+    100% {
+      transform: translateX(0);
+      opacity: 0.35;
+    }
+    50% {
+      transform: translateX(12px);
+      opacity: 0.7;
+    }
+  }
+
+  @keyframes float-y {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(6px);
+    }
+  }
+
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(18px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-up {
+    animation: fade-up 0.7s ease-out both;
+  }
+
+  .animate-float {
+    animation: float-y 2.4s ease-in-out infinite;
+  }
+}
