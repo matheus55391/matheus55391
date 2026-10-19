@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="public/profile.jpg" width="120" style="border-radius: 50%;" alt="Matheus Felipe Vieira Santiago" />
-
 # Matheus Felipe Vieira Santiago
 
 `Senior Full Stack Engineer`
