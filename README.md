@@ -1,20 +1,3 @@
-<div align="center">
-
-# Matheus Felipe Vieira Santiago
-
-`Senior Full Stack Engineer`
-
-Construo produtos web, mobile e cloud de alta disponibilidade há 6 anos — de sistemas atendendo 10k+ usuários/dia a um produto multi-tenant próprio para clínicas de saúde.
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=vercel&logoColor=white)](https://matheus55391.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matheus-felipe-vieira-santiago-5a321a208/)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@matheus-felipe-dev)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:matheus.felipe55391@gmail.com)
-[![GitHub followers](https://img.shields.io/github/followers/matheus55391?style=for-the-badge&color=181717&logo=github&logoColor=white&label=Followers)](https://github.com/matheus55391?tab=followers)
-
-</div>
-
----
 
 ### 🚀 Sobre mim
 
@@ -24,6 +7,16 @@ Construo produtos web, mobile e cloud de alta disponibilidade há 6 anos — de 
 - 🎥 Compartilho conteúdo sobre desenvolvimento web no meu canal do [YouTube](https://www.youtube.com/@matheus-felipe-dev).
 - 🌱 Interesses atuais: integrações com IA, arquitetura multi-tenant e infraestrutura em nuvem (GCP/AWS, Docker, Kubernetes).
 - 🎓 Formado em Análise e Desenvolvimento de Sistemas (ADS), com Pós-graduação em Especialização em Engenharia de Software e Arquitetura de Sistemas.
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=vercel&logoColor=white)](https://matheus55391.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matheus-felipe-vieira-santiago-5a321a208/)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@matheus-felipe-dev)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:matheus.felipe55391@gmail.com)
+[![GitHub followers](https://img.shields.io/github/followers/matheus55391?style=for-the-badge&color=181717&logo=github&logoColor=white&label=Followers)](https://github.com/matheus55391?tab=followers)
+
+</div>
 
 ### 🧰 Linguagens e Tecnologias
 
